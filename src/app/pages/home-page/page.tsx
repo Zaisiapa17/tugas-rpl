@@ -16,9 +16,11 @@ const pageHome = () => {
                 <HomeCard pathName="/images/icon/tiket-saya.png" />
                 <HomeCard pathName="/images/icon/sejarah-pemesanan.png" />
             </section>
-            <section className="flex flex-col my-5">
-                <h1>pageHome</h1>
-                <HomeCaursel />
+            <section className="flex flex-col my-5 p-3">
+                <h1 className="text-2xl font-medium">Untuk Kamu</h1>
+                <div className="rounded-lg shadow-lg w-[360px] h-[284px] flex items-center justify-center mx-auto mt-5">
+                    Banner promo
+                </div>
             </section>
         </>
     );
