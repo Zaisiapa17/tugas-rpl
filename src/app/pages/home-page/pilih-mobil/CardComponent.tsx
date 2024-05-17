@@ -7,11 +7,11 @@ interface HeaderProps {
     pathName: string;
 }
 
-export function HomeCard({ pathName }: HeaderProps) {
+export function CardComponent({ pathName }: HeaderProps) {
     return (
-        <div className="rounded-lg shadow-lg w-[104px] h-[103px] flex items-center justify-center">
+        <div className="rounded-lg shadow-lg w-[159px] h-[140px] flex items-center justify-center">
             <Image
-                className="mx-auto w-20"
+                className="mx-auto w-28"
                 src={pathName}
                 width={500}
                 height={500}

@@ -13,7 +13,7 @@ const pageHome = () => {
             </section>
             <section className="flex justify-center gap-7 my-5">
                 <HomeCard pathName="/images/icon/pilih-bus.png" />
-                <HomeCard pathName="/images/icon/tiket-saya.png" />
+                <HomeCard pathName="/images/icon/image.png" />
                 <HomeCard pathName="/images/icon/sejarah-pemesanan.png" />
             </section>
             <section className="flex flex-col my-5 p-3">
