@@ -1,8 +1,16 @@
 import React from 'react'
+import { CardTS } from './CardTS'
 
 const pageTiketSaya = () => {
   return (
-    <div>pageTiketSaya</div>
+    <>
+    <section className="flex flex-col gap-5 justify-center items-center w-full my-5">
+        <CardTS/>
+        <CardTS/>
+        <CardTS/>
+        <CardTS/>
+    </section>
+    </>
   )
 }
 
