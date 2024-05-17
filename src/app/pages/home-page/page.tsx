@@ -3,7 +3,6 @@
 import React from "react";
 import { HomeCaursel } from "./components/HomeCaursel";
 import { HomeCard } from "./components/HomeCard";
-import Image from "next/image";
 
 const pageHome = () => {
     return (

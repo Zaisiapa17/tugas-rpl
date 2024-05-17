@@ -10,7 +10,7 @@ import {
 
 export function HomeCaursel() {
     const plugin = React.useRef(
-        Autoplay({ delay: 5000, stopOnInteraction: true })
+        Autoplay({ delay: 1000, stopOnInteraction: true })
     )
 
     return (
